@@ -2543,8 +2543,8 @@ html, body, .outer, .menu, .main {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: 'Nunito', sans-serif;
-  font-weight: 400; }
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300; }
 
 html {
   background: url(/backgounds/stars-in-the-deep-space.jpg) no-repeat center center fixed;
@@ -2552,6 +2552,8 @@ html {
   overflow: hidden; }
   html body {
     padding: 3rem 1rem; }
+  html h1, html h2, html h3, html h4, html h5, html h6 {
+    font-weight: 400; }
   html .outer {
     margin: 0 auto; }
     html .outer .menu {
@@ -2601,6 +2603,34 @@ html {
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
+  -webkit-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; }
+
+@-webkit-keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(20%, 0, 0);
+    transform: translate3d(20%, 0, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+
+.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
   -webkit-animation-duration: 0.4s;
   animation-duration: 0.4s;
   -webkit-animation-fill-mode: both;

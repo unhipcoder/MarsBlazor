@@ -3,8 +3,8 @@ html, body, .outer, .menu, .main {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: 'Nunito', sans-serif;
-    font-weight:400;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
 }
 
 html {
@@ -14,6 +14,10 @@ html {
 
     body {
         padding: 3rem 1rem;
+    }
+
+    h1,h2,h3,h4,h5,h6{
+        font-weight: 400;
     }
 
     .outer {
