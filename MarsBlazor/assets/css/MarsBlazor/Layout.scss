@@ -1,0 +1,29 @@
+
+html {
+    background: url(/backgounds/stars-in-the-deep-space.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+
+
+    .outer {
+        margin: 3rem 0 0 3rem;
+
+        .menu {
+            padding: 1.5rem;
+            border-radius: 0.5rem 0 0 0.5rem;
+            background-color: rgba( 4,3,3,0.75 );
+            height: 100%;
+        }
+
+        .main {
+            border-radius: 0 0.5rem 0.5rem 0;
+            background-color: rgba( 255,255,255,0.88 );
+            height: 100%;
+        }
+    }
+
+    .inner {
+        padding: 1.5rem;
+    }
+}

@@ -1,0 +1,33 @@
+/*!
+ * MarsBlazor
+ */
+
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+/* import bootstrap components */
+@import "bootstrap-4.3.1/scss/functions";
+@import "bootstrap-4.3.1/scss/variables";
+
+@import "bootstrap-4.3.1/scss/mixins/breakpoints";
+@import "bootstrap-4.3.1/scss/mixins/grid-framework";
+@import "bootstrap-4.3.1/scss/mixins/grid";
+
+@import "bootstrap-4.3.1/scss/grid";
+@import "bootstrap-4.3.1/scss/utilities/display";
+@import "bootstrap-4.3.1/scss/utilities/flex";
+@import "bootstrap-4.3.1/scss/utilities/spacing";
+
+
+/* MarsBlazor components */
+@import "marsblazor/loader";
+@import "marsblazor/layout";
