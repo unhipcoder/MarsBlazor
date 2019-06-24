@@ -1,19 +1,33 @@
 
+html, body, .outer, .menu, .main {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Nunito', sans-serif;
+    font-weight:400;
+}
+
 html {
     background: url(/backgounds/stars-in-the-deep-space.jpg) no-repeat center center fixed;
     background-size: cover;
-    height: 100%;
     overflow: hidden;
 
+    body {
+        padding: 3rem 1rem;
+    }
 
     .outer {
-        margin: 3rem 0 0 3rem;
-
+        margin: 0 auto;
         .menu {
             padding: 1.5rem;
             border-radius: 0.5rem 0 0 0.5rem;
             background-color: rgba( 4,3,3,0.75 );
             height: 100%;
+
+            .logo {
+                max-width: 200px;
+                padding: 0 0 2rem 0;
+            }
         }
 
         .main {
@@ -26,4 +40,8 @@ html {
     .inner {
         padding: 1.5rem;
     }
+}
+
+.h-100 {
+    height: 100%
 }

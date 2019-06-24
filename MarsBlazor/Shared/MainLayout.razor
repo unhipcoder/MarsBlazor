@@ -1,24 +1,23 @@
 @inherits LayoutComponentBase
 
 
-<div class="container outer">
 
-    <div class="row">
-        <div class="col-4 menu">
+<div class="container h-100 outer">
+    <div class="row justify-content-center h-100">
+        <div class="col-4 hidden-md-down menu">
+
+            <img src="/img/mars-blazor-logo.png" class="logo" />
 
             <div class="sidebar">
                 <NavMenu />
             </div>
 
-
         </div>
-
-        <div class="col-8 main">
-
+        <div class="col-10 col-sm-10 col-md-10 col-lg-8 col-xl-8 main">
             @Body
-
         </div>
     </div>
-
 </div>
+
+
 
